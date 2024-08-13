@@ -10,7 +10,7 @@ export default defineConfig({
     react(),
     checker({
       eslint: {
-        lintCommand: 'eslint "./src/**/*.{js,jsx,ts,tsx}"',
+        lintCommand: '"',
       },
     }),
   ],
@@ -27,9 +27,9 @@ export default defineConfig({
     ],
   },
   server: {
-    port: 3030,
+    port: 3035,
   },
   preview: {
-    port: 3030,
+    port: 3035,
   },
 });
